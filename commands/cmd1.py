@@ -11,16 +11,13 @@ description:
 '''
 
 
-@click.group(chain=True)
-def cli():
-    pass
-
-
-@cli.command('sdist')
+@click.command
 def sdist():
+    """ 这个是  sdist 命令行 """
     click.echo('sdist called')
 
 
-@cli.command('bdist_wheel')
+@click.command
 def bdist_wheel():
+    """ 这个是 bdist_wheel 命令行 """
     click.echo('bdist_wheel called')
