@@ -1,0 +1,6 @@
+ipython
+stringcase
+click
+pytest-playwright
+playwright
+requests
